@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    width:100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.nav .nav_list ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+.nav .nav_list ul li .nav_link{
+    display: block;
+    text-decoration: none;
+    font-size: 2.7rem;
+}
+
+
+
+.text{
+    width: 60%;
+    margin: 20px auto 0px auto;
+}
+
+.text textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.text_list{
+    width: 60%;
+    margin: auto;
+}
+/* test */
+
+
+
+
+.nav_button .red, .nav_button .green, .nav_button .blue, .nav_button .pink{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    outline: none;
+    margin: 0px 5px;
+}
+/* end of nav_button */
